@@ -11,7 +11,7 @@ pip install librosa soundfile numpy sklearn pyaudio
 ```
 
 ### The dataset
-The RAVDESS (Ryerson Audio-Visual Database of Emotional Speech and Song) dataset sums up to 24.8 GB. For this project, we use a reduced version of the same, available in the `dataset` folder. This consists of 24 folders, each for an actor (12 male and 12 female), with 60 audio files per folder. The file naming convention gives us details about the type of data it contains. Read [this](https://zenodo.org/record/1188976#.YLYRzybhVpk) for further information.
+The RAVDESS (Ryerson Audio-Visual Database of Emotional Speech and Song) dataset sums up to 24.8 GB. For this project, we use a reduced version of the same, available [here](https://drive.google.com/file/d/1wWsrN2Ep7x6lWqOXfr4rpKGYrJhWc8z7/view) for download. This consists of 24 folders, each for an actor (12 male and 12 female), with 60 audio files per folder. The file naming convention gives us details about the type of data it contains. Read [this](https://zenodo.org/record/1188976#.YLYRzybhVpk) for further information.
 
 SER is ususally done with the help of Neural Network models, since they give better predictions and high accuracy. Here, our objective is to build the model using basic ML classifiers, though we have tried fitting the [MLP classifier](https://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPClassifier.html) as well. There are 8 different emotions in the dataset and classification into 8 subcategories will give very low accuracy, we have considered only 4 major emotions - neutral, angry, sad, happy - for the purpose of classification.
 
