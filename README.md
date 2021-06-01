@@ -27,4 +27,4 @@ After extracting the features, the train test split was performed for two differ
 Here we extract the features, compute their mean values and create a CSV file of the same. Each audio file is be represented by a row in the CSV file, which also contains the corresponding actor number and emotion extracted from the filename. With this CSV file as data, we can easily fit a model.
 
 ### Model fitting and accuracy analysis
-The model has been fitted with various classifiers like KNN, SVM, Decision Tree, etc. and the accuracy obtained has been analysed as bar charts. (Refer to `AccuracyAnalysis_90:10.jpeg` and `AccuracyAnalysis_75:25.png` in the list of files)
+The model has been fitted with various classifiers like KNN, SVM, Decision Tree, etc. and the accuracy obtained has been analysed as bar charts. (Refer to [AccuracyAnalysis_75:25.png](https://github.com/naveena-as/SER/blob/main/analysis/AccuracyAnalysis_75:25.png) and [AccuracyAnalysis_90:10.jpeg](https://github.com/naveena-as/SER/blob/main/analysis/AccuracyAnalysis_90:10.jpeg))
